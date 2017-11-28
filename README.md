@@ -3,7 +3,8 @@ Code for blog http://saumitra.me/blog/deploying-kafka-dependent-scala-microservi
 To try it out:
 
 ```
-git clone https://github.com/saumitras/kafka-twitter-docker
-cd kafka-twitter-docker
-docker-compose up
+$ git clone https://github.com/saumitras/kafka-twitter-docker
+$ cd kafka-twitter-docker
+$ sbt docker
+$ docker-compose up
 ```
